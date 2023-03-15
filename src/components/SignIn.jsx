@@ -17,7 +17,7 @@ const googleSignIn = () => {
 const SignIn = () => {
   return (
     <div className={style.wrapper}>
-        <GoogleButton />
+        <GoogleButton onClick={googleSignIn} />
     </div>
   )
 }
